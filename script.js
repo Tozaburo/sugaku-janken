@@ -6,6 +6,7 @@ var index2 = 0;
 
 function test() {
     var endpoint = "https://script.google.com/macros/s/AKfycbz996tRE9AcbydWNCFJZJUfj3EJ2bv-R9feIh4UXTTeYPxICTW44u5HIj9zTNQ7cas65w/exec";
+
     fetch(endpoint)
         .then(response => response.json())
         .then(data => {
@@ -40,10 +41,6 @@ let wait = setInterval(() => {
         document.querySelector("#loadingtitle").innerHTML = "データを取得中です..";
     }
 }, 100);
-
-function main() {
-    object.splice(26, object.length - 25)
-}
 
 function check(){
     hand1 = document.querySelector("#hand1").value;
