@@ -6,7 +6,6 @@ var index2 = 0;
 
 function test() {
     var endpoint = "https://script.google.com/macros/s/AKfycbz996tRE9AcbydWNCFJZJUfj3EJ2bv-R9feIh4UXTTeYPxICTW44u5HIj9zTNQ7cas65w/exec";
-
     fetch(endpoint)
         .then(response => response.json())
         .then(data => {
