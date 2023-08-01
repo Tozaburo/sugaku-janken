@@ -29,7 +29,6 @@ let wait = setInterval(() => {
             document.querySelector(".loading").style.display = "none";
         });
         clearInterval(wait);
-        main();
     }
     if (Math.round(Date.now() / 500) % 4 == 0) {
         document.querySelector("#loadingtitle").innerHTML = "データを取得中です...";
