@@ -1,0 +1,75 @@
+.loading {
+    background-color: #F7E3B5;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-flow: column;
+    position: fixed;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.top {
+    width: 100vw;
+    margin: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.loading h1 {
+    color: #8D8D8D;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+    font-size: 5vmin;
+}
+
+h2 {
+    color: #000000;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: 5vmin;
+    padding: 5vmin;
+}
+
+body {
+    margin: 0;
+}
+
+input,
+a {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: 3vmin;
+    width: 15vmin;
+    text-align: center;
+    line-height: 5vmin;
+    padding: 1vmin;
+    border-color: black;
+    border: 0.5vmin solid;
+    border-radius: 1vmin;
+}
+
+a {
+    cursor: pointer;
+}
