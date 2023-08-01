@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title"></title>
+</head>
+
+<body>
+    <div class="loading">
+        <h1 id="loadingtitle">データを取得中です...</h1>
+    </div>
+    <div class="main">
+        <div class="top">
+            <input type="text" id="hand1">
+            <h2>VS</h2>
+            <input type="text" id="hand2">
+        </div>
+        <a onclick="check()">判定</a>
+        <h2 id="winner">勝ち：</h2>
+    </div>
+</body>
+
+</html>
